@@ -16,6 +16,8 @@ def checkWinner(board, player):
     if board['top-L'] == player and board['mid-M'] == player and board['low-R'] == player: return True
     if board['top-R'] == player and board['mid-M'] == player and board['low-L'] == player: return True
 
+	else:
+		return False
     
     
 def startGame(startingPlayer, board):
